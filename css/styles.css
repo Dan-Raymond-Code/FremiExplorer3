@@ -1,0 +1,484 @@
+/*@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap");*/
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@0;1&family=Roboto:ital@0;1&display=swap');*/
+/* @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500&family=Roboto+Condensed:ital@0;1&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500&family=Barlow+Semi+Condensed:wght@400;500&family=Roboto+Condensed:ital@0;1&display=swap");
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 1rem;
+  /*background-color: #FEF8F2;*/
+  background-color: #fef3ec;
+  color: #0e010d;
+}
+
+select option:focus {
+  background-color: yellow !important;
+}
+
+.select-subcategory-nav:active {
+  border: 1px solid red;
+}
+
+.mg-breadcrumb a {
+  color: #212121;
+}
+
+.footer-menu > li > a,
+.footer-menu > li > a:link,
+.footer-menu > li > a:visited {
+  color: #212121;
+}
+
+@media (max-width: 768px) {
+  #masthead-logo {
+    max-width: 130px !important;
+  }
+}
+
+a.navbar-brand {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.btn-search-orange {
+  background-color: #f67f67;
+  color: #0e0e0e;
+}
+
+strong,
+b {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+}
+
+.masthead {
+  /* background-image: linear-gradient(90deg, #fc4114, #edecef, #fc4114); */
+  background-image: linear-gradient(90deg, #fc4114, #f67f67, #fc4114);
+  padding: 1rem;
+  margin-top: 0;
+  height: 10.5vh;
+  border-bottom: 4px solid #a6a6a6;
+}
+
+.text-beneath-logo {
+  color: #343a40;
+  margin-top: 0.3rem;
+}
+
+.fixed-footer {
+  background-image: linear-gradient(90deg, #fc4114, #edecef, #fc4114);
+  padding: 1rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 14vh;
+  border-top: 4px solid #a6a6a6;
+}
+
+.bt,
+.brandt,
+.temp-brand {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-family: "Barlow Condensed";
+  font-size: 1.15rem;
+  border-top: 1px solid #cdcecf;
+}
+
+.bt > a {
+  color: #121213;
+  text-decoration: none;
+}
+
+.bt > a:hover {
+  background-color: yellow;
+  text-decoration: underline;
+}
+
+.select-category2 {
+  padding: 0.25rem;
+  margin: 0.5rem 0;
+  background-color: #f6f6f8;
+  flex: 0 0 40%;
+}
+
+.select-category {
+  width: 100%;
+  display: block;
+  padding: 0.25rem;
+  margin: 0.5rem 0;
+  background-color: #f6f6f8;
+}
+
+.select-category-main,
+.select-category-nav,
+.select-subcategory-nav {
+  width: 100%;
+  display: block;
+  padding: 0.5rem 0;
+  background-color: #f6f6f8;
+  font-size: 1rem;
+}
+
+.select-subcategory-main {
+  width: 100%;
+  display: block;
+  padding: 0.5rem 0;
+  background-color: #f6f6f8;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.page-heading {
+  background-color: #f67567;
+  color: #303030;
+  padding: 0.5rem 0 0.2rem 0.5rem;
+  margin-top: 0.3rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.home-icon {
+  color: #8f8f8f;
+  font-size: 105%;
+}
+
+.home-widget-main {
+  color: #4f4f4f;
+  margin-bottom: 0;
+  display: inline-block;
+  margin-bottom: 0.25rem;
+  transition: all 5ms ease-in-out;
+}
+
+.home-widget-main:hover {
+  color: black;
+  background-color: #efefef;
+  text-decoration: none;
+}
+
+.search-control-wrapper {
+  display: flex;
+}
+
+.search-control {
+  width: 100%;
+  display: block;
+  padding: 0.5rem 0;
+  background-color: #f6f6f8;
+  font-size: 1rem;
+  border-radius: 0;
+  border: 1px solid #303031;
+  padding: 0.4rem 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.search-control-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 0.3rem;
+}
+
+/* <div style="display:flex;">
+                <input type="search" class="select-category-nav" placeholder="Search..." style="border-radius: 0; border:1px solid #303031;padding: 0.35rem 0.5rem; margin-top:0.5rem" />
+                <div style="display:flex; align-items: center; margin-left:0.3rem"><i class="fa fa-search"></i></div>
+              </div> */
+
+.news-item-wrapper {
+  display: flex;
+  width: 95%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-bottom: 1rem;
+}
+
+.news-image {
+  flex: 0 0 130px;
+  margin-top: 0.325rem;
+}
+
+.news-text {
+  flex: 1 1 auto;
+  padding-left: 0.5rem;
+  font-size: 1rem;
+}
+
+.brand-info-wrapper {
+  display: flex;
+  background-color: #f7f7f9;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  /*border-top: 2px solid rgba(0,0,0,.1);*/
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.brand-logo {
+  flex: 0 0 175px;
+  margin-top: 0.325rem;
+}
+
+.brand-text {
+  flex: 1 1 auto;
+  padding-left: 0.5rem;
+  font-size: 1.2rem;
+  font-family: "Barlow Condensed";
+}
+
+.brand-title {
+  font-size: 1.4rem;
+  font-family: "Barlow Condensed";
+  font-weight: 500;
+}
+
+.brand-flag {
+  vertical-align: top;
+}
+
+header,
+.header {
+  background-image: linear-gradient(90deg, #fc4114, #edecef, #fc4114);
+  padding: 1rem;
+  margin-top: 0;
+  height: 10vh;
+  border-bottom: 4px solid #a6a6a6;
+  text-align: center;
+}
+
+.chip {
+  font-family: "Roboto Condensed";
+  color: #04031d;
+  background-color: #e8e9ec;
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 90%;
+  border: 1px solid #261f1f;
+  font-weight: 300;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.list-group-item {
+  padding: 0.3rem 0.65rem !important;
+  font-size: 1rem !important;
+  color: black;
+  font-family: "Barlow Condensed";
+}
+
+.list-group-item-heading {
+  font-weight: 500;
+  font-size: 1.15rem !important;
+  background-color: #343a40;
+  color: #dedede;
+}
+
+@media only screen and (min-width: 1199px) and (max-width: 1400px) {
+  .list-group-item {
+    font-size: 0.875rem !important;
+  }
+
+  .list-group-item-heading {
+    font-size: 0.975rem !important;
+  }
+}
+
+@media only screen and (min-width: 1401px) and (max-width: 3300px) {
+  .list-group-item {
+    font-size: 1rem !important;
+  }
+}
+
+h4 {
+  font-size: 1.7rem;
+  font-weight: normal;
+  font-family: "Barlow Condensed";
+}
+
+.h3,
+h3 {
+  font-family: "Barlow Condensed";
+  font-weight: normal;
+  font-size: 1.9rem;
+}
+
+.list-group-item.active {
+  z-index: 2;
+  font-weight: 500;
+  font-style: italic;
+  /* color: #212121;
+  color: rgba(255, 255, 255, 0.75);
+  color: #0e010d; */
+  /*background-color: #3893f4;*/
+  color: #495057;
+  text-decoration: none;
+  background-color: #f8f9fa;
+  /* background-color: #f96744;
+  background-color: #fc4215;
+  background-color: rgba(252, 66, 21, 0.65);
+  background-image: linear-gradient(90deg, rgba(252, 65, 20, 0.1), #edecef); */
+
+  border-color: #3893f4;
+  border-color: #c0c0c0;
+  border-color: rgb(169, 169, 169);
+  /*border-color: #f6f6f8;*/
+}
+
+.subcat-info {
+  font-family: "Roboto Condensed";
+  color: #464141;
+  border: 1px solid rgba(0, 0, 0, 0.155);
+  border-radius: 7px;
+  padding: 0.85rem;
+  margin-bottom: 1rem;
+  background-color: white;
+  padding: 0.575rem 0.75rem;
+  /*padding: 0.375rem 0.5rem;*/
+  /*box-shadow: rgba(0,0,0,.0980392) 0 0 4px 0, rgba(0,0,0,.0980392) 0 8px 16px 0;*/
+}
+
+.subcat-info > p {
+  margin-bottom: 0;
+}
+
+.brand-info {
+  /*color: #3e3939;*/
+  color: #464141;
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.155);
+  border-radius: 7px;
+  margin-bottom: 1rem;
+  background-color: white;
+  padding: 0.575rem 0.75rem;
+  /*background-color: linear-gradient(90deg, #dedede, #f0f2f3);*/
+  /*background: -webkit-linear-gradient(top,#FFF,#e9e9e9);
+  background: linear-gradient(180deg,#FFF,#e5e5e5);*/
+  /*box-shadow: rgba(0,0,0,.0980392) 0 0 4px 0, rgba(0,0,0,.0980392) 0 8px 16px 0;*/
+  font-family: "Roboto";
+  /*box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 12px 0 rgba(0,0,0,.15);*/
+}
+
+.brand-info > .brand-info__logo {
+  flex: 0 0 auto;
+  margin-right: 0.5rem;
+}
+
+.brand-info > .brand-info__logo img {
+  margin-top: 0.35rem;
+  /*box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 12px 0 rgba(0,0,0,.15);*/
+}
+
+.brand-info > .brand-info__body {
+  flex: 1 1 auto;
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+.brand-info > .brand-info__body p {
+  margin-bottom: 0.5rem;
+  padding-bottom: 0;
+}
+
+.brand-info > .brand-info__body .brand--title {
+  font-family: "Roboto Condensed";
+  color: #212121;
+  font-weight: normal;
+  font-size: 1.6rem;
+  letter-spacing: 0.0257rem;
+}
+
+.brand-info > .brand-info__body a.brand--website {
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.brand--website > a,
+.brand--website > a:link,
+.brand--website > a:active,
+.brand--website > a:visited,
+.brand--contact a,
+.brand--contact a:link,
+.brand--contact a:active,
+.brand--contact a:visited {
+  color: #212121 !important;
+}
+
+.brand-info > .brand-info__body .brand--location {
+  font-size: 1rem;
+}
+
+.brand-info > .brand-info__body .brand--location .brand--flag {
+  vertical-align: top;
+}
+
+.brand-info > .brand-info__body .brand--description {
+  font-size: 1rem;
+  margin-top: 1rem;
+  font-family: "Roboto";
+}
+
+.brand-info > .brand-info__flag {
+  text-align: left;
+}
+
+.brand-info > .brand-info__flag img {
+  max-width: 100%;
+}
+
+.list-group-item.category-selected,
+.list-group-item.cat-selected,
+.list-group-item.category-active,
+.list-group-item.cat-active {
+  /*color: #007bff!important;*/
+  background-color: #efd6d3;
+  background-color: #eedcdb;
+  background-color: #f3f5f7;
+  /*background-color: #e8f1ff;*/
+  /* background-color: #e9ecef!important; */
+  font-weight: 500;
+  /*font-style: italic;*/
+  color: #212121;
+  color: #fc4114;
+  /* background-color: #f9f9f9!important; */
+}
+
+.list-group-item.category-selected:before,
+.list-group-item.cat-selected:before,
+.list-group-item.category-active:before,
+.list-group-item.cat-active:before {
+  content: "\003e\0020";
+  /* background-color: #f9f9f9!important; */
+}
+
+.main-container {
+  /*background: url("../img/bg/crafted-paper-pattern-Grey-Seamless-Pattern-For-Website-Background.jpg");*/
+  /*background-color: #f5f7f9;*/
+  background-color: #fef8f2;
+}
+
+.content-row {
+  /*background-color: #fff;*/
+  height: 100%;
+  padding-left: 0.2rem;
+}
+
+.content-area {
+  margin: 0.5rem;
+}
+
+.content-area hr {
+  margin-top: -0.2rem;
+  margin-bottom: 0.3rem;
+  border: 0;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+ol.breadcrumb {
+  margin-bottom: 0.35rem;
+}
